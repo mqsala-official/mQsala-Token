@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CLOCK_MODE",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "clock",
+				"outputs": [
+					{
+						"internalType": "uint48",
+						"name": "",
+						"type": "uint48"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"CLOCK_MODE()": {
+					"details": "Description of the clock"
+				},
+				"clock()": {
+					"details": "Clock used for flagging checkpoints. Can be overridden to implement timestamp based checkpoints (and voting)."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mQsalaToken_flattened.sol": "IERC6372"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mQsalaToken_flattened.sol": {
+			"keccak256": "0x540cea40059375df86840c328613e49c7f18465f0f58738aab658a3b59de9012",
+			"urls": [
+				"bzz-raw://640169508d51b4016534157e319d69fc1095810eddd0d1b955f8d08980c62ef9",
+				"dweb:/ipfs/QmeKMsMFRr4iEozS6eefAnFcp3goH51w9AKtYFbAfaC9Nu"
+			]
+		}
+	},
+	"version": 1
+}

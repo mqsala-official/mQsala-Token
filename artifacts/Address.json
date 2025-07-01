@@ -1,0 +1,82 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60556032600b8282823980515f1a607314602657634e487b7160e01b5f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f5ffdfea2646970667358221220d766e05e2bd8c6a31d2fa40fc590f194785ae8bfb09be6895e8e5432299f59a564736f6c634300081d0033",
+			"opcodes": "PUSH1 0x55 PUSH1 0x32 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH0 BYTE PUSH1 0x73 EQ PUSH1 0x26 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST ADDRESS PUSH0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xD7 PUSH7 0xE05E2BD8C6A31D 0x2F LOG4 0xF 0xC5 SWAP1 CALL SWAP5 PUSH25 0x5AE8BFB09BE6895E8E5432299F59A564736F6C634300081D00 CALLER ",
+			"sourceMap": "218555:5815:0:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;218555:5815:0;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "730000000000000000000000000000000000000000301460806040525f5ffdfea2646970667358221220d766e05e2bd8c6a31d2fa40fc590f194785ae8bfb09be6895e8e5432299f59a564736f6c634300081d0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xD7 PUSH7 0xE05E2BD8C6A31D 0x2F LOG4 0xF 0xC5 SWAP1 CALL SWAP5 PUSH25 0x5AE8BFB09BE6895E8E5432299F59A564736F6C634300081D00 CALLER ",
+			"sourceMap": "218555:5815:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17000",
+				"executionCost": "96",
+				"totalCost": "17096"
+			},
+			"internal": {
+				"_revert(bytes memory)": "infinite",
+				"functionCall(address,bytes memory)": "infinite",
+				"functionCallWithValue(address,bytes memory,uint256)": "infinite",
+				"functionDelegateCall(address,bytes memory)": "infinite",
+				"functionStaticCall(address,bytes memory)": "infinite",
+				"sendValue(address payable,uint256)": "infinite",
+				"verifyCallResult(bool,bytes memory)": "infinite",
+				"verifyCallResultFromTarget(address,bool,bytes memory)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "target",
+					"type": "address"
+				}
+			],
+			"name": "AddressEmptyCode",
+			"type": "error"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "AddressEmptyCode",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"errors": {
+				"AddressEmptyCode(address)": [
+					{
+						"details": "There's no code at `target` (it is not a contract)."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mQsalaToken_flattened.sol": "Address"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mQsalaToken_flattened.sol": {
+			"keccak256": "0x540cea40059375df86840c328613e49c7f18465f0f58738aab658a3b59de9012",
+			"urls": [
+				"bzz-raw://640169508d51b4016534157e319d69fc1095810eddd0d1b955f8d08980c62ef9",
+				"dweb:/ipfs/QmeKMsMFRr4iEozS6eefAnFcp3goH51w9AKtYFbAfaC9Nu"
+			]
+		}
+	},
+	"version": 1
+}

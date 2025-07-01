@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ECDSAInvalidSignature",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "ECDSAInvalidSignatureLength",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "ECDSAInvalidSignatureS",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "Elliptic Curve Digital Signature Algorithm (ECDSA) operations. These functions can be used to verify that a message was signed by the holder of the private keys of a given address.",
+			"errors": {
+				"ECDSAInvalidSignature()": [
+					{
+						"details": "The signature derives the `address(0)`."
+					}
+				],
+				"ECDSAInvalidSignatureLength(uint256)": [
+					{
+						"details": "The signature has an invalid length."
+					}
+				],
+				"ECDSAInvalidSignatureS(bytes32)": [
+					{
+						"details": "The signature has an S value that is in the upper half order."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mQsalaToken_flattened.sol": "ECDSA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mQsalaToken_flattened.sol": {
+			"keccak256": "0x540cea40059375df86840c328613e49c7f18465f0f58738aab658a3b59de9012",
+			"urls": [
+				"bzz-raw://640169508d51b4016534157e319d69fc1095810eddd0d1b955f8d08980c62ef9",
+				"dweb:/ipfs/QmeKMsMFRr4iEozS6eefAnFcp3goH51w9AKtYFbAfaC9Nu"
+			]
+		}
+	},
+	"version": 1
+}
